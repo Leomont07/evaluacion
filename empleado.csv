@@ -1,0 +1,5 @@
+ID_Empleado,Nombre_Empleado,Rol,Sucursal_Asignada,Antigüedad
+EMP001,Pedro Sánchez,Gerente,SUC001,5
+EMP002,Lucía Fernández,Vendedor,SUC001,2
+EMP003,Miguel Torres,Vendedor,SUC002,3
+EMP004,Sofía Ramírez,Contador,SUC003,4

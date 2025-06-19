@@ -1,0 +1,4 @@
+ID_Cliente,Nombre_Cliente,Edad,Genero,Tipo_Licencia,Frecuencia_Alquiler
+CLI001,María López,30,Femenino,Estándar,3
+CLI002,José Martínez,45,Masculino,Comercial,5
+CLI003,Laura García,25,Femenino,Estándar,1

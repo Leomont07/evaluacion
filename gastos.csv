@@ -1,0 +1,4 @@
+ID_Gasto,ID_Sucursal,ID_Categoria_Gasto,ID_Empleado,Fecha_Gasto,Monto_Gasto,Descripción_Gasto
+GST001,SUC001,CAT001,EMP001,2024-01-01,200.00,Reparación vehículo
+GST002,SUC002,CAT002,EMP003,2024-01-02,1500.00,Pago salario
+GST003,SUC003,CAT003,EMP004,2024-01-03,300.00,Campaña publicitaria

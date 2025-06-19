@@ -1,0 +1,4 @@
+ID_Vehículo,Tipo_Vehículo,Marca,Modelo,Costo_Seguro
+VEH001,Coche,Toyota,Corolla,50.00
+VEH002,Moto,Yamaha,MT-07,30.00
+VEH003,Camioneta,Ford,Explorer,75.00
