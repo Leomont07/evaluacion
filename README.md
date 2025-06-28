@@ -3,17 +3,17 @@
 Este repositorio contiene los conjuntos de datos preprocesados y scripts SQL para el Data Warehouse de Rent4you, diseñado para analizar ventas, gastos, perfiles de clientes y eficiencia operativa.
 ## Estructura del Repositorio
 - **data/**: Contiene los archivos CSV con datos preprocesados.
-  - `dim_sucursal.csv`: Dimensión de sucursales (ID_Sucursal, Nombre_Sucursal, Ciudad, Pais, Gerente_Sucursal).
-  - `dim_cliente.csv`: Dimensión de clientes (ID_Cliente, Nombre_Cliente, Edad, Genero, Tipo_Licencia, Frecuencia_Alquiler).
-  - `dim_vehiculo.csv`: Dimensión de vehículos (ID_Vehículo, Tipo_Vehículo, Marca, Modelo, Costo_Seguro).
-  - `dim_empleado.csv`: Dimensión de empleados (ID_Empleado, Nombre_Empleado, Rol, Sucursal_Asignada, Antigüedad).
-  - `dim_categoria_gasto.csv`: Dimensión de categorías de gasto (ID_Categoria_Gasto, Nombre_Categoria).
-  - `dim_tiempo.csv`: Dimensión de tiempo (ID_Fecha, Dia, Mes, Año, Dia_Semana).
-  - `fact_ventas.csv`: Tabla de hechos de ventas (ID_Alquiler, ID_Sucursal, ID_Cliente, ID_Vehículo, ID_Empleado, Fecha_Alquiler, Duración_Alquiler_Dias, Monto_Alquiler, Descuento_Aplicado, Seguro_Contratado).
-  - `fact_gastos.csv`: Tabla de hechos de gastos (ID_Gasto, ID_Sucursal, ID_Categoria_Gasto, ID_Empleado, Fecha_Gasto, Monto_Gasto, Descripción_Gasto).
+  - `sucursal.csv`: Dimensión de sucursales (ID_Sucursal, Nombre_Sucursal, Ciudad, Pais, Gerente_Sucursal).
+  - `cliente.csv`: Dimensión de clientes (ID_Cliente, Nombre_Cliente, Edad, Genero, Tipo_Licencia, Frecuencia_Alquiler).
+  - `vehiculo.csv`: Dimensión de vehículos (ID_Vehículo, Tipo_Vehículo, Marca, Modelo, Costo_Seguro).
+  - `empleado.csv`: Dimensión de empleados (ID_Empleado, Nombre_Empleado, Rol, Sucursal_Asignada, Antigüedad).
+  - `categoria_gasto.csv`: Dimensión de categorías de gasto (ID_Categoria_Gasto, Nombre_Categoria).
+  - `tiempo.csv`: Dimensión de tiempo (ID_Fecha, Dia, Mes, Año, Dia_Semana).
+  - `ventas.csv`: Tabla de hechos de ventas (ID_Alquiler, ID_Sucursal, ID_Cliente, ID_Vehículo, ID_Empleado, Fecha_Alquiler, Duración_Alquiler_Dias, Monto_Alquiler, Descuento_Aplicado, Seguro_Contratado).
+  - `gastos.csv`: Tabla de hechos de gastos (ID_Gasto, ID_Sucursal, ID_Categoria_Gasto, ID_Empleado, Fecha_Gasto, Monto_Gasto, Descripción_Gasto).
 - **sql/**: Scripts SQL para crear y cargar las tablas.
-  - `create_tables.sql`: Crea la base de datos `Rent4you_DW`, el esquema `rent4you_analytics` y todas las tablas con sus índices.
-  - `load_data.sql`: Carga los datos desde los archivos CSV a las tablas.
+  - `db.sql`: Crea la base de datos `Rent4you_DW`, el esquema `rent4you_analytics` y todas las tablas con sus índices.
+  - `script.sql`: Carga los datos desde los archivos CSV a las tablas.
 
 ## Requisitos
 - MySQL (versión 8.0 o superior).
